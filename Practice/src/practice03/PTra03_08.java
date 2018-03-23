@@ -35,6 +35,28 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		int orange = 150;
+		int apple = 160;
+		int coffee = 200;
+		int rest;
 
+		if (num == 1) {
+			System.out.println("所持金は" + money + "円です");
+			System.out.println("オレンジジュースを購入しました");
+			rest = money - orange;
+			System.out.println("150円支払ったので、残り" + rest + "円です");
+		} else if (num == 2) {
+			System.out.println("所持金は" + money + "円です");
+			System.out.println("リンゴジュースを購入しました");
+			rest = money - apple;
+			System.out.println("160円支払ったので、残り" + rest + "円です");
+		} else if (num == 3) {
+			System.out.println("所持金は" + money + "円です");
+			System.out.println("コーヒーを購入しました");
+			rest = money - coffee;
+			System.out.println("200円支払ったので、残り" + rest + "円です");
+		} else {
+			System.out.println("1-3を選択してください");
+		}
 	}
 }

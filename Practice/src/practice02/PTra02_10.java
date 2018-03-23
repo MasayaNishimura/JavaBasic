@@ -21,6 +21,8 @@ public class PTra02_10 {
 		 * ※ 日本円には小数点がありませんので、整数の値で出力してください(少数部分は切り捨て)
 		 * ※ プログラムは何行書いても良いです
 		 */
-
+		double rest = moneyInHand - Math.floor((coffee * 2 + snack) * 1.08);
+		int result = (int)rest;
+		System.out.println(result);
 	}
 }
