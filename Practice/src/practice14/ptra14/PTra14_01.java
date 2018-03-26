@@ -23,4 +23,31 @@ public class PTra14_01 {
 	 * 		高度な継承
 	 */
 
+	public static void main(String[] args) {
+
+	}
+
+	public class JavaCourse implements practice14.common.Course {
+		String PREFIX = "【Eラーニング】";
+
+		/**
+		 * コースの名称を取得します。
+		 * 例）Java、DB基礎、IT基礎　など
+		 * @return	単元の名称
+		 */
+		public String getCourseName() {
+			return "Java";
+		}
+
+		/**
+		 * コースの単元を取得します
+		 * 例）プログラミングの書き方、式と演算子　など
+		 * @return
+		 */
+		public String[] getCourseUnit() {
+			String[] array = {"プログラミングの書き方","式と演算子"};
+			return array;
+		}
+	}
+
 }

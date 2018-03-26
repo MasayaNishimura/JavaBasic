@@ -20,10 +20,6 @@ public class PTra10_03 {
 
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
 		us = new User();
-		us.userId = 1;
-		us.userNm = "Nishimura";
-		us.mail = "m.nishimura19870726@gmail.com";
-		us.password = "typewriter1";
 
 		System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 

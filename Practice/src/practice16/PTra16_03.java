@@ -16,6 +16,10 @@ public class PTra16_03 {
 	 *	・その後、改行をして「PTra16_03#toString()の処理」という文字列を連結してください
 	 */
 
+	public String toString() {
+
+	}
+
 	public static void main(String[] args) {
 
 		// ★ PTra16_03クラスのtoStringメソッドの内容を出力してください

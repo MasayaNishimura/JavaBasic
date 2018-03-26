@@ -8,6 +8,10 @@ package practice14.ptra14;
 
 public class PTra14_02 {
 
+	public static void main(String[] args) {
+
+	}
+
 	/*
 	 * ★ common.Courseを実装した、DBCourseクラスを作成してください
 	 *
@@ -19,5 +23,18 @@ public class PTra14_02 {
 	 * 		正規化
 	 * 		SQL応用
 	 */
+
+	public class DBCourse implements practice14.common.Course {
+
+		public String getCourseName() {
+			return "【Eラーニング】DB基礎";
+		}
+
+		public String[] getCourseUnit() {
+			String[] array = {"DB基礎","SQL基礎", "正規化", "SQL応用"};
+			return array;
+		}
+
+	}
 
 }

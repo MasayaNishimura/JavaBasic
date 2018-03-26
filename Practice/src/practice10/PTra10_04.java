@@ -47,6 +47,7 @@ public class PTra10_04 {
 
 
 
+
 		//----------- ループ end
 		}
 
