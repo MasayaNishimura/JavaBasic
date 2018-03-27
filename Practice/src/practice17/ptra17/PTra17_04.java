@@ -6,7 +6,10 @@
  */
 package practice17.ptra17;
 
+
 public class PTra17_04 {
+
+
 	public static void main(String[] args) {
 
 		String str = "スッキリわかるJava入門";
@@ -16,5 +19,16 @@ public class PTra17_04 {
 		 * ※ Thread.sleep を使用すること
 		 */
 
+		String substr = "";
+
+		for (int i = 0; i < str.length(); i++) {
+			try {
+				substr = str.substring(i, i + 1);
+				System.out.print(substr);
+				Thread.sleep(300);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 }

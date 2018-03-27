@@ -28,5 +28,6 @@ public class PTra16_02 {
 		Long ol = new Long(l);
 		Float of = new Float(f);
 		Double od = new Double(d);
+
 	}
 }

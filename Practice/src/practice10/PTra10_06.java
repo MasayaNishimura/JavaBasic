@@ -37,37 +37,43 @@ public class PTra10_06 {
 		final int distance = 300;
 		int runDis1 = 0;
 
-		while (car1.gasoline > 0 && 300 - runDis1 > 0) {
+		while (true) {
 			runDis1 += car1.run();
 			if (car1.gasoline == 0 && 300 - runDis1 > 0) {
 				System.out.println("car1 : 目的地に到達できませんでした");
+				break;
 			}
 			if (car1.gasoline >= 0 && 300 - runDis1 <= 0) {
-				System.out.println("car1 : 目的地にまで" + (50 - car1.gasoline) + "時間かかりました。\n残りのガソリンは、" + car1.gasoline + "リットルです");
+				System.out.println("car1 : 目的地にまで" + (45 - car1.gasoline) + "時間かかりました。\n残りのガソリンは、" + car1.gasoline + "リットルです");
+				break;
 			}
 		}
 
 		int runDis2 = 0;
 
-		while (car2.gasoline > 0 && 300 - runDis2 > 0) {
+		while (true) {
 			runDis2 += car2.run();
 			if (car2.gasoline == 0 && 300 - runDis2 > 0) {
 				System.out.println("car2 : 目的地に到達できませんでした");
+				break;
 			}
 			if (car2.gasoline >= 0 && 300 - runDis2 <= 0) {
-				System.out.println("car2 : 目的地にまで" + (50 - car2.gasoline) + "時間かかりました。\n残りのガソリンは、" + car2.gasoline + "リットルです");
+				System.out.println("car2 : 目的地にまで" + (40 - car2.gasoline) + "時間かかりました。\n残りのガソリンは、" + car2.gasoline + "リットルです");
+				break;
 			}
 		}
 
 		int runDis3 = 0;
 
-		while (car3.gasoline > 0 && 300 - runDis3 > 0) {
+		while (true) {
 			runDis3 += car3.run();
 			if (car3.gasoline == 0 && 300 - runDis3 > 0) {
 				System.out.println("car3 : 目的地に到達できませんでした");
+				break;
 			}
 			if (car3.gasoline >= 0 && 300 - runDis3 <= 0) {
-				System.out.println("car3 : 目的地にまで" + (50 - car3.gasoline) + "時間かかりました。\n残りのガソリンは、" + car3.gasoline + "リットルです");
+				System.out.println("car3 : 目的地にまで" + (35 - car3.gasoline) + "時間かかりました。\n残りのガソリンは、" + car3.gasoline + "リットルです");
+				break;
 			}
 		}
 
